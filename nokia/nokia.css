@@ -1,0 +1,202 @@
+.container{
+    width: 280px;
+    height: 605px;
+    border: 5px solid black;
+    margin-left: 15rem;
+    margin-top: 1.6rem;
+    border-radius: 2rem;
+    background-color: rgb(29, 26, 26) ;
+
+    box-shadow: 0 0 0 20px #004646;
+}
+.tipi-top{
+    height: 30px;
+}
+.rect{
+    width: 3.2rem;
+    height: 0.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    position: relative;
+    left: 7.3rem;
+    bottom: 0.2rem;
+    box-shadow: 0 0.5px 2px ;
+
+}
+.phone{
+    font-size: 16px;
+    position: relative;
+    bottom: 1rem;
+    left: 7.3rem;
+    color: white;
+}
+.inner{
+    width: 248px;
+    height: 200px;
+    position: relative;
+    left: 0.81rem;
+    border: 4px solid grey;
+    background-image: url(nokia.jpeg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+.top{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+.battery{
+    font-size: 1.5rem;
+    position: relative;
+    left: 0.3rem;
+    bottom: 0.2rem;
+    
+}
+.bell{
+    position: relative;
+    left: 0.6rem
+
+}
+.time{
+    position: relative;
+    bottom: 8rem;
+    right: 5rem;
+    display: block;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 0;
+}
+.day{
+    margin: 0;
+    left: 3rem;
+}
+.date{
+    margin: 0;
+    display: block;
+    position: relative;
+    right: 9.6rem;
+    bottom: 6.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.main-btns{
+    width: 249px;
+    height: 1.8rem;
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.2rem;  
+}
+
+.call{
+    width: 256px;
+    height:105px;
+    border: 1px solid black;
+    margin-left: 12px;
+    box-shadow: -1px 3px 16px black;
+
+    display: grid;
+    grid-template-columns: 1.25fr 1.5fr 1.25fr;
+    background-color: rgb(29, 26, 26);
+}
+.call-btns{
+    border: 1px solid black;
+}
+.call-icon{
+    color: green;
+    position: relative;
+    top: 0.5rem;
+    left: 1.5rem;
+    font-size: 2rem;
+}
+.red{
+    color: red;
+}
+.circle{
+    position: relative;
+    right: 1.4em;
+    bottom: 1rem;
+}
+.upper-btn{
+    height: 50px;
+    border-bottom: 2px solid grey;
+}
+.up{
+    margin-left: 1.5rem;
+    position: relative;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    
+}
+.middle{
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 6px black;
+    
+}
+.mid-inner{
+    width: 4rem;
+    height: 4.2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 8px black;
+    background-color: rgb(29, 26, 26);
+}
+.numbers{
+    width: 250px;
+    height: 227px;
+    margin-left: 12px;
+
+    border: 4px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(29, 26, 26) ;
+
+}
+.digits{
+    margin: auto;
+    width:5rem;
+    height: 3rem;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 6px black;
+} 
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+span{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.sign{
+    padding-top: 23px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.symbol-zero{
+    position: relative;
+    top: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.microphone{
+    position: relative;
+     left: 0.2rem;
+    top: 0.3rem;
+}
